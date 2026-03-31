@@ -18,7 +18,19 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 ##### AI GPTs used
 
 ## Steps I followed
-1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
+1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work.
+2. Steps I followed
+3.Installed Arduino IDE on Windows 11.
+4.Opened Arduino IDE and installed esp32 board package using Boards Manager.
+5.Restarted Arduino IDE.
+6.Selected board:  ESP32-CAM Espressif System.
+7.Connected ESP32-CAM to computer (USB base or USB-to-Serial).
+8.Selected correct COM port in Tools → Port.
+9.Opened WiFiScan example sketch from Arduino examples.
+10.Uploaded the sketch to ESP32-CAM.
+11.Opened Serial Monitor at 115200 baud.
+12.Verified WiFi networks were displayed.
+11. I was able to complete everything successfully without any problems.
 
 ## Problems and Solutions
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
@@ -32,3 +44,8 @@ Camera init failed with error 0x105
 **Solution:** Camera drivers were incorrect I needed to install the driver: [https://www.wch-ic.com/downloads/CH341SER_ZIP.html](https://github.com/martin-ger/esp32_nat_router).  I used file, "CH341SER.ZIP" and it worked.
 
 ## Final Report
+In this project, I set up the ESP32-CAM and configured the Arduino IDE on Windows 11. I installed the ESP32 board package, selected the correct board (AI Thinker ESP32-CAM), and uploaded the WiFiScan sketch.
+
+After uploading, I opened the Serial Monitor and confirmed that nearby WiFi networks were displayed. This showed that the board was working correctly and communicating with the Arduino environment.
+
+Overall, the setup was completed successfully, and the ESP32-CAM functioned as expected.
